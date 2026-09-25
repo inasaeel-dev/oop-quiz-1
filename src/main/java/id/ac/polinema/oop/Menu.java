@@ -41,7 +41,7 @@ public class Menu {
 
     /**
      * Searches the stored items by exact name.
-     *0
+     *
      * @param name item name to look for
      * @return the matching MenuItem, or {@code null} when not found
      */
