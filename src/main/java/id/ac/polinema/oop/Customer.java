@@ -11,7 +11,7 @@ package id.ac.polinema.oop;
  * (all fields must be private).
  */
 public class Customer {
-    private String customerID;
+    private String customerId;
     private String name;
     /**
      * Creates a customer and stores both parameters into the fields.
@@ -20,12 +20,12 @@ public class Customer {
      * @param name       customer's name
      */
     public Customer(String customerId, String name) {
-        this.customerID = customerId;
+        this.customerId = customerId;
         this.name = name;
     }
 
     public String getCustomerId() {
-        return customerID;
+        return customerId;
     }
 
     public String getName() {
