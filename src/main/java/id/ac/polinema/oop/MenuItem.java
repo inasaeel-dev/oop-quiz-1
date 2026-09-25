@@ -12,7 +12,8 @@ package id.ac.polinema.oop;
  * (all fields must be private).
  */
 public class MenuItem {
-    
+    String name;
+    private double price;
     /**
      * Creates a menu item and stores both parameters into the fields.
      *
@@ -20,7 +21,12 @@ public class MenuItem {
      * @param price price in Rupiah
      */
     public MenuItem(String name, double price) {
-        throw new UnsupportedOperationException("Not implemented yet");
+        this.name = name;  
+        if (price >= 0){
+            this.price = price;
+        } else {
+            price = 0;
+        }
     }
 
     public String getName() {
