@@ -11,7 +11,8 @@ package id.ac.polinema.oop;
  * (all fields must be private).
  */
 public class Customer {
-
+    String customerID;
+    String name;
     /**
      * Creates a customer and stores both parameters into the fields.
      *

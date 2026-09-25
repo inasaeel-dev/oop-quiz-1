@@ -12,7 +12,7 @@ package id.ac.polinema.oop;
  * (all fields must be private).
  */
 public class MenuItem {
-
+    
     /**
      * Creates a menu item and stores both parameters into the fields.
      *
