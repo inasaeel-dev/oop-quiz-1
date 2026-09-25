@@ -26,7 +26,7 @@ public class Menu {
         // throw new UnsupportedOperationException("Not implemented yet");
     }
 
-    /**o
+    /**
      * Adds an item at index {@code itemCount}, then increments the counter.
      * When the menu is full (10 items), do nothing.
      *
