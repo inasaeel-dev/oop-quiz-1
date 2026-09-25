@@ -16,8 +16,8 @@ public class Customer {
     /**
      * Creates a customer and stores both parameters into the fields.
      *
-     * @param customerId customer identifierr
-     * @param name       customer's namee
+     * @param customerId customer identifier
+     * @param name       customer's name
      */
     public Customer(String customerId, String name) {
         this.customerID = customerId;
