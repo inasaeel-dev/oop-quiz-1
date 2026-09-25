@@ -37,7 +37,6 @@ public class Menu {
             items[itemCount] = item;
             itemCount++;
         }
-        // throw new UnsupportedOperationException("Not implemented yet");
     }
 
     /**
