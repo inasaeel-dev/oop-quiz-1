@@ -7,7 +7,7 @@ package id.ac.polinema.oop;
  * and Cashier, write your demo scenario here (see "Try the App Manually"
  * in the README) and run:
  *
- *   mvn -q compile exec:javaa
+ *   mvn -q compile exec:java
  */
 public class Main {
 
